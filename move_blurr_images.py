@@ -30,7 +30,6 @@ folder_path = ('C:/Users/RICHIE/Desktop/detect_blurr_images/')
 dest = "C:/Users/RICHIE/Desktop/detect_blurr_images/blur_img/"
 
 
-test = os.listdir(folder_path)
 
 for imagePath in paths.list_images(args["images"]):
 	image = cv2.imread(imagePath)
